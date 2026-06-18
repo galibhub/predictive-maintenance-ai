@@ -38,6 +38,7 @@ def predict_machine_failure(data):
         data
     )
 
+   
     prediction = model.predict(
         features
     )[0]
